@@ -90,9 +90,9 @@ export default function LandingPage() {
             </div>
 
             <div className="hero-text pt-4">
-              <button className="px-8 py-4 bg-[#202020] text-white rounded-full font-bold flex items-center gap-3 hover:bg-blue-600 transition-colors duration-300">
+              <a href="tel:62833 18275" className="px-8 py-4 bg-[#202020] text-white rounded-full font-bold flex items-center gap-3 hover:bg-blue-600 transition-colors duration-300">
                 Start Growing Now <ArrowRight size={18} />
-              </button>
+              </a>
             </div>
           </div>
 
@@ -190,7 +190,7 @@ export default function LandingPage() {
                 whileTap={{ scale: 0.98 }}
                 className="mt-6 relative w-full md:w-[320px] h-16 bg-[#202020] rounded-full overflow-hidden group shadow-lg"
               >
-                <a href="tel:+1234567890" className="absolute inset-0 w-full h-full flex items-center justify-center z-10 group">
+                <a href="tel:62833 18275" className="absolute inset-0 w-full h-full flex items-center justify-center z-10 group">
                   <span className="text-white font-bold tracking-tight transition-transform group-hover:translate-x-[-15px]">
                     Call to Discuss Growth
                   </span>
