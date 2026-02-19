@@ -155,17 +155,17 @@ export const processItem = [
 export const TfooterItem = [
     {
         id: 1,
-        href: "SEO Agency in mohali, Kharar, Mohali, Chandigarh",
-        title: "WrenSquare"
+        href: "#",
+        title: "SEO Agency"
     },
     {
         id: 2,
-        href: "",
+        href: "#",
         title: "©2026"
     },
     {
         id: 3,
-        href: "#",
+        href: "https://www.upwork.com/freelancers/~01765c106db48936f3",
         title: "Upwork"
     },
 ];
@@ -196,19 +196,19 @@ export const links = [
 export const footerLinks = [
     {
         title: "E-Mail",
-        href: "mailto:Gauravsoftwear11@gmail.com"
+        href: "mailto:Kritikash2@gmail.com"
     },
     {
         title: "Upwork",
-        href: "https://www.upwork.com/"
+        href: "https://www.upwork.com/freelancers/~01765c106db48936f3"
     },
     {
         title: "Call",
-        href: "tel:9818222222"
+        href: "tel:62833 18275"
     },
     {
         title: "Google",
-        href: "https://share.google/ouj0uQXH0itIgeM0P"
+        href: "https://share.google/uYUKoMJDkzRBZIQbs"
     }
 ];
 

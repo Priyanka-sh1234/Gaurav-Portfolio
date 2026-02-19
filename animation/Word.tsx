@@ -15,7 +15,7 @@ export default function Paragraph({ paragraph }: TParagraphProps) {
 		<>
 			<p
 				ref={container}
-				className="flex text-[30px] lg:ml-[200px] leading-[35px] tracking-wider max-w-[1200px] text-[#202020] flex-wrap">
+				className="flex text-[20px] lg:text-[35px] lg:ml-[100px] leading-normal lg:leading-[35px] tracking-wider max-w-full text-justify text-[#202020] flex-wrap">
 				{words.map((word, i) => {
 					const start = i / words.length;
 					const end = start + 1 / words.length;

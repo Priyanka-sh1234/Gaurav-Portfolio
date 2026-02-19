@@ -31,10 +31,10 @@ export default function Project() {
 			className="w-full my-[100px]"
 			id="projects">
 			<Marquee baseVelocity={2}>
-				<h1 className="text-[#202020] uppercase text-[100px] font-bold tracking-tight flex items-center justify-center">
-					<span className="w-[40px] h-[40px] bg-[#8c8c8c] rounded-full mx-[20px]" />
+				<h1 className="text-[#202020] uppercase text-[40px] lg:text-[90px] font-bold tracking-tight flex items-center justify-center">
+					<span className="w-[40px] h-[40px] bg-[#8c8c8c] rounded-full mx-[10px]" />
 					selected
-					<span className="w-[40px] h-[40px] bg-[#8c8c8c] rounded-full mx-[20px]" />
+					<span className="w-[40px] h-[40px] bg-[#8c8c8c] rounded-full mx-[10px]" />
 					projects
 				</h1>
 			</Marquee>

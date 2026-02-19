@@ -7,7 +7,7 @@ export default function Footer() {
 	const phrases = ["HAVE AN IDEA?"];
 	return (
 		<section
-			className="w-full h-screen bg-[#e1e1e1] relative z-[70]"
+			className="w-full h-screen bg-[#e1e1e1] relative "
 			id="contact">
 			<div className="flex items-center justify-between flex-col h-full">
 				<div className="w-full h-[8vh] " />
@@ -22,7 +22,7 @@ export default function Footer() {
 						whileInView={{ opacity: 1, scale: 1 }}
 						transition={{ ease: "easeInOut", duration: 0.5, delay: 0.8 }}>
 						<p className="text-[25px] text-[#202020] mt-[-20px] tracking-wider">
-							Drop me an email:
+							Drop me an email for any Enquiry:  Kritikash2@gmail.com
 						</p>
 					</motion.div>
 					<motion.div

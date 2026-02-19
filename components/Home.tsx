@@ -5,7 +5,6 @@ import {
 	Hero,
 	Process,
 	Project,
-	FrontEnd,
 	Testimonials,
 	Services,
 } from "@components";
@@ -13,20 +12,18 @@ import {
 export default function Home() {
 	return (
 		<>
-			<div className="sm:hidden block">
+			<div className="sm:hidden block mb-2">
 				<Sticky />
 			</div>
-			<div className="px-[50px]">
+			<div className="px-[20px] md:px-[50px]">
 				<Hero />
-				<About />
 			</div>
-			<Project />
-			<Process />
+			<div className=" pb-5"><Project/></div>
+			<div className="max-w-7xl w-full mx-auto"><Process /></div>
 			<Parallax />
-			{/* <FrontEnd /> */}
 			<Testimonials />
 			<Services />
-			<div className="px-[50px]">{<Footer />}</div>
+			<div className="px-[20px] md:px-[50px]">{<Footer />}</div>
 		</>
 	);
 }

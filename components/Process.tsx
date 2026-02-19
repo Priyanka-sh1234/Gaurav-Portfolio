@@ -19,10 +19,9 @@ export default function Process() {
 
 	return (
 		<section
-			className="w-full my-[100px]"
-			id="process">
+			className="w-full my-[100px] max-w-7xl mx-auto">
 			<div className="flex sm:flex-col lg:items-center gap-x-[20px] border-b border-[#8D8D8D] px-[50px]">
-				<h1 className="text-[#202020] uppercase leading-none sm:text-[80px] md:text-[100px] text-[100px] font-bold tracking-tight overflow-hidden">
+				<h1 className="text-[#202020] uppercase leading-none sm:text-[80px] md:text-[120px] text-[60px] font-bold tracking-tight overflow-hidden">
 					{"process".split("").map((item: string, i: number) => (
 						<motion.span
 							initial={{ y: "100%" }}
@@ -40,11 +39,11 @@ export default function Process() {
 					))}
 				</h1>
 			</div>
-			<div className="w-full items-end flex py-[50px] flex-col px-[50px]">
+			<div className="w-full items-start lg:items-end flex py-[50px] flex-col px-[10px]">
 				{processItem.map((item) => (
 					<div
 						key={item.id}
-						className="sm:w-full w-[60%] flex-col flex py-[15px] border-b border-black">
+						className="w-full lg:w-[60%] px-4 flex-col flex py-[15px] border-b border-black">
 						<div
 							className="flex items-center justify-between transition-all duration-500 ease-in-out cursor-pointer"
 							onClick={() => toggleAccordion(item.id)}>
